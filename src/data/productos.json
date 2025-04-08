@@ -1,0 +1,92 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "iPhone 13 Pro",
+      "precio": "$799",
+      "descripcionCorta": "En excelente estado, incluye cargador y caja original",
+      "etiqueta": "Usado - Como nuevo",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1632661674596-df8be070a5c5",
+        "https://images.unsplash.com/photo-1591337676887-a217a6970a8a"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "MacBook Pro 2021",
+      "precio": "$1299",
+      "descripcionCorta": "M1 Pro, 16GB RAM, 512GB SSD, perfecto estado",
+      "etiqueta": "Usado - Excelente",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "iPad Air 2022",
+      "precio": "$549",
+      "descripcionCorta": "Con Apple Pencil 2da gen, poco uso",
+      "etiqueta": "Usado - Como nuevo",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Sony WH-1000XM4",
+      "precio": "$249",
+      "descripcionCorta": "Auriculares noise cancelling, como nuevos",
+      "etiqueta": "Usado - Excelente",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Nintendo Switch OLED",
+      "precio": "$299",
+      "descripcionCorta": "Incluye 3 juegos físicos y accesorios",
+      "etiqueta": "Usado - Muy bueno",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
+        "https://images.unsplash.com/photo-1591815302525-756a9bcc3425"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Canon EOS R6",
+      "precio": "$1899",
+      "descripcionCorta": "Cámara mirrorless con 2 lentes incluidos",
+      "etiqueta": "Usado - Como nuevo",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1621520291095-aa6c7137f048",
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "DJI Mini 3 Pro",
+      "precio": "$599",
+      "descripcionCorta": "Drone con cámara 4K, poco uso",
+      "etiqueta": "Usado - Excelente",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1473968512647-3e447244af8f",
+        "https://images.unsplash.com/photo-1527977966376-1c8408f9f108"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Samsung Galaxy S22",
+      "precio": "$649",
+      "descripcionCorta": "256GB, incluye todos los accesorios",
+      "etiqueta": "Usado - Muy bueno",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+        "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3"
+      ]
+    }
+  ]
+}
