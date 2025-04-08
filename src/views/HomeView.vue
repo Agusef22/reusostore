@@ -8,7 +8,7 @@
       <!-- Contenido -->
       <div class="relative z-10 text-center max-w-2xl mx-auto px-4">
         <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-[#0e4705] leading-tight">
-          Productos Usados en Excelente Estado
+          Productos usados en excelente estado
         </h1>
         <p class="text-[#1a6b0c] text-lg md:text-xl mb-8 md:mb-10 font-light">
           Descubre nuestra colección de productos usados en excelente estado, listos para usar
@@ -27,7 +27,7 @@
 
     <!-- Productos -->
     <section class="mb-8 md:mb-16 max-w-4xl mx-auto px-4">
-      <h2 class="text-xl md:text-2xl font-semibold mb-6 md:mb-8 text-[#0e4705]">Nuestros Productos</h2>
+      <h2 class="text-xl md:text-2xl font-semibold mb-6 md:mb-8 text-[#0e4705]">Nuestros productos</h2>
 
       <!-- Loading state -->
       <div v-if="loading" class="text-center py-8">
@@ -56,32 +56,40 @@
 
           <!-- Información del producto -->
           <div class="flex-grow w-full">
-            <div class="flex flex-col md:flex-row md:items-start justify-between gap-2">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
               <div>
                 <h3 class="text-lg font-medium text-[#0e4705]">{{ producto.nombre }}</h3>
                 <p class="text-[#1a6b0c] text-sm mt-1">{{ producto.descripcionCorta }}</p>
-              </div>
-              <span class="text-lg font-semibold text-[#0e4705]">{{ producto.precio }}</span>
-            </div>
 
-            <!-- Etiquetas -->
-            <div class="mt-2 flex gap-2">
-              <span
-                v-if="producto.etiqueta"
-                class="inline-block bg-[#f0f7ef] text-[#0e4705] text-xs px-2 py-1 rounded-full"
-              >
-                {{ producto.etiqueta }}
-              </span>
+                <!-- Etiquetas -->
+                <div class="mt-2 flex gap-2">
+                  <span
+                    v-if="producto.etiqueta"
+                    class="inline-block bg-[#f0f7ef] text-[#0e4705] text-xs px-2 py-1 rounded-full"
+                  >
+                    {{ producto.etiqueta }}
+                  </span>
+                  <span
+                    v-if="!producto.disponible"
+                    class="inline-block bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full"
+                  >
+                    Agotado
+                  </span>
+                </div>
+              </div>
+
+              <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+                <span class="text-lg font-semibold text-[#0e4705]">{{ producto.precio }}</span>
+                <button
+                  @click.stop="cartStore.addToCart(producto)"
+                  :disabled="!producto.disponible"
+                  class="bg-[#0e4705] text-white w-full md:w-auto px-4 md:px-6 py-2 rounded-lg transition-colors flex-shrink-0 text-center disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#165909] disabled:hover:bg-[#0e4705]"
+                >
+                  {{ producto.disponible ? 'Agregar' : 'Agotado' }}
+                </button>
+              </div>
             </div>
           </div>
-
-          <!-- Botón de agregar -->
-          <button
-            @click.stop="cartStore.addToCart(producto)"
-            class="bg-[#0e4705] text-white w-full md:w-auto px-4 md:px-6 py-2 rounded-lg hover:bg-[#165909] transition-colors flex-shrink-0 text-center"
-          >
-            Agregar
-          </button>
         </div>
 
         <!-- Paginación -->
