@@ -6,7 +6,7 @@
       "precio": "$570",
       "descripcionCorta": "En excelente estado",
       "etiqueta": "Usado - Como nuevo",
-      "disponible": true,
+      "disponible": false,
       "imagenes": ["https://i.ibb.co/V060mpkd/IMG-6335.jpg", "https://i.ibb.co/TqKps8c5/IMG-6337.jpg"]
     },
     {
@@ -15,7 +15,7 @@
       "precio": "$470",
       "descripcionCorta": "En excelente estado",
       "etiqueta": "Usado - Como nuevo",
-      "disponible": true,
+      "disponible": false,
       "imagenes": ["https://i.ibb.co/JFMpHdSM/IMG-6344.jpg", "https://i.ibb.co/rR0cjdD2/IMG-6345.jpg"]
     },
     {
@@ -24,7 +24,7 @@
       "precio": "$370",
       "descripcionCorta": "En excelente estado",
       "etiqueta": "Usado - Como nuevo",
-      "disponible": true,
+      "disponible": false,
       "imagenes": ["https://i.ibb.co/65WCk0N/IMG-6350.jpg", "https://i.ibb.co/NgvgSs6J/IMG-6352.jpg"]
     },
     {
@@ -33,7 +33,7 @@
       "precio": "$370",
       "descripcionCorta": "En excelente estado",
       "etiqueta": "Usado - Como nuevo",
-      "disponible": true,
+      "disponible": false,
       "imagenes": ["https://i.ibb.co/zTbNL24d/IMG-6339.jpg", "https://i.ibb.co/JjvZKq1W/IMG-6341.jpg"]
     }
   ]

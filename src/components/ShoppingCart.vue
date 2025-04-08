@@ -74,7 +74,7 @@ import { useToast } from 'vue-toast-notification'
 
 const cartStore = useCartStore()
 const toast = useToast()
-const numeroWhatsApp = '5491162026472' // Reemplaza con tu número
+const numeroWhatsApp = '5491167919443' // Reemplaza con tu número
 
 const whatsappLink = () => {
   if (cartStore.items.length === 0) {
